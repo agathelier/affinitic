@@ -1,0 +1,112 @@
+/* le style de votre projet */
+
+html, body{
+	height: 100%;
+}
+
+body{
+	margin: 0 px;
+	font-family: verdana, sans-serif;
+	font-size: 11pt;
+	background-color: #01202b;
+	background-image: url("images/body_background.png");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
+#wrapper{
+	width:800px;
+	height:600px;
+	background-color:#515b69;
+	position: absolute;
+	left:50%;
+	top: 50%;
+	margin-left: -400px;
+	margin-top: -300px;
+}
+
+#header{
+	border:1px solid #f00;
+    height:74px;
+	background-image:url("images/header.png");
+}
+
+#menu-top{
+	height: 42px;
+	background-image: url("images/menu_top.png");
+}
+
+#menu-sup{
+	border: 1px solid #fff;
+	margin: 0px;
+	/*permet d'enlever la marge incluse dans la liste à 
+	puces qui repousse tout le cadre*/
+	line-height: 24px;
+	padding-left: 200px;
+	font-size: 0.8em;
+	position: relative;
+	top: 12px;
+}
+
+#menu-sup li:last-child{
+	border-right: 2px solid #c0d3e2;
+}
+
+#menu li{
+	display: inline-block;
+	border-left: 2px solid #c0d3e2;
+	width: 80px;
+	text-align: center;
+	font-weight: bold;
+}
+
+#menu-sup li a{
+text-decoration: none;
+color: #c0d3e2;
+text-transform: uppercase;
+}
+
+#menu-sup li a hover{
+	color: #e5f9ff;
+}
+
+#deco-fire{
+	height: 52px;
+	background-image: url("images/deco-fire-me.png");
+}
+
+#colonne-gauche{
+	width: 151px;
+	height: 430px;
+	border: 1px solid #f00;
+	background-color: #abb6c5;
+	float:left;
+}
+#colonne-gauche a{
+	display: block;
+	border:1px solid #fff;
+	width: 150px;
+	height: 34px;
+	text-align: center;
+	background-image: url("images/button_background_off.png");
+	text-decoration: none;
+	color:#334355;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 0.8em;
+	line-height: 34px;
+}
+#colonne-gauche a:hover{
+	background-image: url("images/button_background_hover.png");
+	color: #e5f9ff;
+	}
+#contenu-texte{
+	width: 600px;
+	height: 430px;
+	border:1px solid #f00;
+	float: left;
+	color: #fff;
+	padding: 0px 1em;
+}
+/*
